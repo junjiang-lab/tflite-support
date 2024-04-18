@@ -17,6 +17,7 @@ def repo():
         sha256 = _FLATBUFFERS_SHA256,
         urls = [
             "https://github.com/google/flatbuffers/archive/%s.tar.gz" % _FLATBUFFERS_GIT_COMMIT,
+            "https://github.com/google/flatbuffers/archive/%s.tar.gz" % _FLATBUFFERS_GIT_COMMIT,
         ],
         build_file = "//third_party/flatbuffers:BUILD.bazel",
         delete = ["build_defs.bzl", "BUILD.bazel"],
